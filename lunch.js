@@ -18,7 +18,7 @@ const whatToDoForLunch = function (hungry, availableTime) {
     console.log(`I'm hungry and I have ${availableTime} minutes for lunch.`);
   } else if (hungry === false) {
     console.log(
-      `I'm not hungry and I have ${availableTime} minutes for lunch.`
+      `I am not hungry and I have ${availableTime} minutes for lunch.`
     );
   }
 };
